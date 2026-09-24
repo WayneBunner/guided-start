@@ -8,10 +8,10 @@ It helps turn **“I don't know where to start”** into useful momentum without
 
 ## Try the current ChatGPT implementation
 
-1. Download `skill.zip` from the latest GitHub Release.
-2. Install/upload the Skill in ChatGPT.
-3. Open a new chat.
-4. Type:
+1. Open the `release` folder in this repository and download `skill.zip`.
+2. Open a new ChatGPT conversation.
+3. Attach `skill.zip` and say **“Install this Skill.”**
+4. Once installed, open a new chat and type:
 
 ```text
 start
@@ -105,7 +105,7 @@ guided-start/
     └── skill.zip
 ```
 
-The `guided-start/` directory is the readable source. `skill.zip` is the installable package intended to be attached to the GitHub Release.
+The `guided-start/` directory is the readable source. `release/skill.zip` is the installable ChatGPT package for this public pilot.
 
 ## Contributing
 

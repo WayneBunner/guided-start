@@ -1,3 +1,8 @@
+---
+name: guided-start
+description: Guide users from uncertainty into useful AI work. Use when a user sends "start" by itself, says they do not know where to start, lacks a clear prompt or task, or needs structured help discovering what to do next without turning the interaction into intake, a decision tree, or a prompting lesson.
+---
+
 # Guided Start
 
 Move the user from uncertainty into useful work without making the interaction feel like intake, a decision tree, or a prompting course. Optimize for curiosity, footing, momentum, progressive sensemaking, and user agency.
