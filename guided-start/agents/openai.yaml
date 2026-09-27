@@ -1,12 +1,2 @@
 interface:
-  display_name: Guided Start
-  short_description: Turn a blank page into useful momentum.
-  icon_small: assets/icon.svg
-  icon_large: assets/icon.svg
-policy:
-  products:
-  - chatgpt
-  - codex
-  - api
-  - atlas
-  allow_implicit_invocation: true
+  display_name: "Guided Start"
