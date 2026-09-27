@@ -8,16 +8,17 @@ It helps turn “I don't know where to start” into useful momentum without tur
 
 ## Try the current ChatGPT implementation
 
-1. [Download `skill.zip`](release/skill.zip?raw=1).
-2. Open a new ChatGPT conversation.
-3. Attach `skill.zip` and say “Install this Skill.”
-4. Once installed, open a new chat and type:
+1. On **ChatGPT web or desktop**, [download `skill.zip`](release/skill.zip?raw=1).
+2. Open ChatGPT and install/upload `skill.zip` as a Skill.
+3. Once installed, open a new chat and type:
 
 ```text
 start
 ```
 
-That is intentionally all you need to know.
+The Skill can then be used from supported ChatGPT surfaces associated with the same account.
+
+> **Note:** Installing the Skill directly from the ChatGPT mobile app is not currently supported. Use ChatGPT on the web or desktop to install it first.
 
 ## What it does
 
