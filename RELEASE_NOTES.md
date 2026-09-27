@@ -2,26 +2,20 @@
 
 Second public pilot release of Guided Start.
 
-Guided Start addresses the blank-box problem: when someone wants to use AI but does not yet have a prompt, a clear question, or a well-defined task. The interaction model is platform-independent; this release packages the current ChatGPT Skill implementation.
+This release builds on the v3 interaction model and focuses on smoother momentum, better handoffs between conversational states, and clearer landing points when useful work has been completed or clarified.
 
-## What changed in v4
+## What's new
 
-This release focuses on making the experience feel less like operating a framework and more like gaining traction with a capable partner.
+- More adaptive assistance as user momentum changes.
+- Better transitions between Do, Solve, Explore, Create, and Surprise me.
+- Less intake-style questioning once enough context exists.
+- Earlier creation of tangible artifacts during creative work.
+- Better recognition of work worth preserving.
+- New landing behavior that briefly records what has been learned, decided, created, or resolved.
 
-Key changes include:
-
-- stronger adaptive assistance based on momentum and context;
-- clearer distinctions between Do, Solve, Explore, Create, and Surprise me;
-- more emphasis on joining the work instead of conducting intake;
-- earlier materialization of creative work and artifacts;
-- explicit preservation of work that has become worth keeping;
-- a new landing behavior that establishes stable conversational checkpoints.
-
-The core landing principle is:
+The landing principle is:
 
 > **Land the foot. Establish the ground. Make the next foothold visible.**
-
-At meaningful points, Guided Start should briefly put on the record what has been learned, decided, created, or resolved so the user has a stable place to move from immediately or return to later.
 
 ## Install
 
@@ -29,3 +23,21 @@ Download `skill.zip`, install/upload it as a ChatGPT Skill, open a new chat, and
 
 ```text
 start
+```
+
+## What to test
+
+Use it naturally rather than following a script.
+
+Useful feedback includes:
+
+- where the conversation stalls;
+- where the AI asks unnecessary questions;
+- where the AI makes you do work it could have carried;
+- where it makes premature assumptions;
+- where it stays in the framework too long after momentum has formed;
+- where creative work remains abstract instead of becoming something concrete;
+- where a conversation ends without clearly establishing what was resolved;
+- where the interaction unexpectedly creates momentum.
+
+If you share a transcript in an Issue, remove private, confidential, or proprietary information first.
