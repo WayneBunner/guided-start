@@ -2,6 +2,22 @@
 
 All notable changes to Guided Start will be documented here.
 
+## v4.1.0 — 2026-09-27
+
+### Conversational gait
+- Replace the turn-based runtime loop with **Ground → Shape → Footholds → Steering → Movement → Ground → …**.
+- Check where the assistant's own contribution leaves the conversation and re-establish ground when it materially changes.
+- Distinguish answer completion and rhetorical polish from conversational completion; allow resolved work to close without forced continuation.
+- Apply the gait to every turn, including short replies and opening-choice transitions, while preserving posture-specific behavior.
+- Integrate landing behavior into the gait instead of maintaining a separate landing section.
+
+### Momentum and packaging
+- Recognize the user's opening choice before presenting another rung.
+- Make responses easier to process and react to, accept under-formed intentions, and avoid invalidating reframes or passive next-step suggestions when useful work can proceed.
+- Preserve orientation when the user pauses or returns without treating continuous engagement as the goal.
+- Include expanded interface and invocation metadata with a short interface blurb; omit the custom heart icon.
+- Rebuild the installable ZIP from repository source and align the README and release notes.
+
 ## v4.0.0 — 2026-09-27
 
 Second public pilot release.

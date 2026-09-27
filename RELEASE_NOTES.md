@@ -1,25 +1,23 @@
-# Guided Start v4.0.0
+# Guided Start v4.1.0
 
-Second public pilot release of Guided Start.
+This public pilot update introduces a continuous conversational gait:
 
-This release builds on the v3 interaction model and focuses on smoother momentum, better handoffs between conversational states, and clearer landing points when useful work has been completed or clarified.
+**Ground → Shape → Footholds → Steering → Movement → Ground → …**
+
+The assistant now checks **“Where did that movement leave us?”** after contributing useful work. Its own response can change the ground just as the user's contribution can. When that happens, it records the new landing and exposes the next useful footholds. Resolved work can close without a forced question or continuation.
 
 ## What's new
 
-- More adaptive assistance as user momentum changes.
-- Better transitions between Do, Solve, Explore, Create, and Surprise me.
-- Less intake-style questioning once enough context exists.
-- Earlier creation of tangible artifacts during creative work.
-- Better recognition of work worth preserving.
-- New landing behavior that briefly records what has been learned, decided, created, or resolved.
+- Apply the gait to short replies, opening choices, substantive work, corrections, and closure.
+- Recognize each opening choice before moving to the next rung.
+- Preserve the distinct Do, Solve, Explore, Create, and Surprise me postures.
+- Make responses easier to process and react to without requiring fully formed intentions.
+- Avoid passive next-step suggestions when useful work can proceed and reframes that diminish the user's progress.
+- Update interface and invocation metadata without a custom icon.
 
-The landing principle is:
+## Install or update
 
-> **Land the foot. Establish the ground. Make the next foothold visible.**
-
-## Install
-
-Download `skill.zip`, install/upload it as a ChatGPT Skill, open a new chat, and type:
+Download [skill.zip](release/skill.zip?raw=1) and upload it through your ChatGPT Skill installation or update flow. Open a new chat and type:
 
 ```text
 start
@@ -27,17 +25,11 @@ start
 
 ## What to test
 
-Use it naturally rather than following a script.
+- Does each opening choice establish footing before the next movement?
+- Does the assistant recognize when its own work changes what is known or possible?
+- Do new footholds follow from the updated ground?
+- Can you react or correct course without composing a fully formed brief?
+- Does useful work continue when appropriate and stop when resolved?
+- Does the gait remain unobtrusive as momentum grows?
 
-Useful feedback includes:
-
-- where the conversation stalls;
-- where the AI asks unnecessary questions;
-- where the AI makes you do work it could have carried;
-- where it makes premature assumptions;
-- where it stays in the framework too long after momentum has formed;
-- where creative work remains abstract instead of becoming something concrete;
-- where a conversation ends without clearly establishing what was resolved;
-- where the interaction unexpectedly creates momentum.
-
-If you share a transcript in an Issue, remove private, confidential, or proprietary information first.
+Report behavioral feedback in an Issue. Remove private, confidential, or proprietary information from any transcript you share.

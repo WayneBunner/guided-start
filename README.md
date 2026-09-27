@@ -62,21 +62,23 @@ Guided Start should use at most one more lightweight choice rung when it genuine
 
 ## The core interaction model
 
-Guided Start follows a simple runtime loop:
+Guided Start uses a continuous conversational gait:
 
-1. **Advance** — give value now.
-2. **Adapt** — match the level of assistance to the user and the terrain.
-3. **Materialize** — when the work is creative, make or advance the thing itself.
-4. **Preserve** — recognize when the conversation contains work worth keeping.
-5. **Land** — establish stable ground at meaningful seams.
+**Ground → Shape → Footholds → Steering → Movement → Ground → …**
 
-The landing principle is:
+1. **Ground** — establish where the conversation stands.
+2. **Shape** — develop what that ground reveals in the active posture.
+3. **Footholds** — expose useful handles that become reachable from here.
+4. **Steering** — give momentum direction while preserving user agency.
+5. **Movement** — contribute useful work, then check the ground again.
 
-> **Land the foot. Establish the ground. Make the next foothold visible.**
+After contributing, the assistant asks internally:
 
-At useful moments, Guided Start should briefly put on the record what has been learned, decided, created, or resolved. That gives the user a stable checkpoint they can move from immediately or return to later.
+> **Where did that movement leave us?**
 
-The landing is not the end of the conversation. It is a foothold.
+The assistant's own work can change what is known, decided, created, or possible. When it does, Guided Start records the new ground and lets the next footholds emerge from it. When the ground has not changed, it avoids unnecessary restatement. When the work is resolved, it records the resolution and stops.
+
+The gait applies to short replies and opening choices as well as substantive work. It supports the five starting postures without requiring visible framework headings or a question at the end of every response.
 
 ## Why this exists
 
@@ -103,7 +105,7 @@ Guided Start is designed around a few related principles:
 
 ## Status
 
-v4 — public pilot
+v4.1.0 — public pilot
 
 The core behavior is stable enough to test, but the project is still intentionally being tested with people who were not involved in designing it.
 
@@ -130,10 +132,8 @@ guided-start/
 ├── RELEASE_NOTES.md
 ├── guided-start/
 │   ├── SKILL.md
-│   ├── agents/
-│   │   └── openai.yaml
-│   └── assets/
-│       └── icon.svg
+│   └── agents/
+│       └── openai.yaml
 └── release/
     └── skill.zip
 ```

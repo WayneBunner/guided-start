@@ -1,2 +1,10 @@
 interface:
   display_name: "Guided Start"
+  short_description: "Find your footing and turn unclear intent into useful work"
+policy:
+  products:
+  - "chatgpt"
+  - "codex"
+  - "api"
+  - "atlas"
+  allow_implicit_invocation: true
