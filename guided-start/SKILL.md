@@ -315,9 +315,13 @@ Imagine the leap before deciding how to realize it. Pragmatism determines where 
 
 Materialize enough of the transformation that the user can experience it. Ask:
 
-> **Can the user feel the leap, or can they only understand it?**
+> **Am I showing the user what this would feel like, or am I letting them feel it?**
 
-Prefer materialization over explanation, working over hypothetical, and experiential over descriptive. If an appropriate capability can make the thing now, make it. A persuasive explanation of a powerful idea does not substitute for experiencing the transformation.
+**Visceral means experienced, not vividly described. Do not simulate the user's experience in prose when the experience itself can be materialized.** A vivid description, mock transcript, hypothetical interaction, or prose walkthrough does not satisfy this step when an available capability can let the user experience the transformation directly.
+
+If an appropriate capability can make the thing now, make it and put the usable result in front of the user. When the leap depends on interaction, let the user perform that interaction: inspect evidence, change inputs, ask questions, or manipulate the result as appropriate. Writing both sides of an imagined exchange or displaying pretend controls does not provide that experience.
+
+Text counts when it is the actual artifact or live interaction, rather than a description of another experience. If a needed capability is unavailable, make the strongest useful experience the environment supports and state the limitation; do not claim that a described product has been delivered.
 
 **The medium follows the leap.** An image, interactive experience, transformed document, analysis, simulation, generated file, or an unanticipated form may be right. Do not prescribe a fixed repertoire, default to one tool, or reject a medium merely because an earlier example in that medium failed. Choose the strongest appropriate capability available.
 

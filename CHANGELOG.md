@@ -2,6 +2,14 @@
 
 All notable changes to Guided Start will be documented here.
 
+## v4.2.1 — 2026-09-28
+
+- Clarify that “visceral” means experienced rather than vividly described. Mock transcripts, hypothetical interactions, and prose walkthroughs cannot substitute for a directly usable experience when it can be materialized.
+- Require real user interaction when interaction is central to the leap; distinguish usable results from pretend controls or assistant-authored exchanges.
+- Preserve text as a valid artifact or live interaction, and require honest limits when the needed capability is unavailable.
+- Sharpen the internal check to **“Am I showing the user what this would feel like, or am I letting them feel it?”**
+- Update release documentation and rebuild the installable ZIP.
+
 ## v4.2.0 — 2026-09-28
 
 ### Surprise Me

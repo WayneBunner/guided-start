@@ -1,35 +1,27 @@
-# Guided Start v4.2.0
+# Guided Start v4.2.1
 
-Surprise Me now turns a small, mundane seed into an experience that expands what the user realizes they can do with AI.
+This update closes a gap exposed by the meeting-notes test: Surprise Me made a strong conceptual leap to organizational memory, but delivered a Markdown product pitch and mock Q&A instead of the interaction itself.
 
-> **Reach far. Make the leap visceral. Land close.**
+## What's fixed
 
-## What's new
+**Visceral means experienced, not vividly described.**
 
-The new arc is **Seed → Reach far → Make the leap visceral → Land close → Ground the transformation → Shift posture**.
+A vivid description, mock transcript, hypothetical interaction, or prose walkthrough does not satisfy materialization when an available capability can deliver the experience directly. When interaction is central to the leap, the user must be able to perform it; pretend controls and assistant-authored exchanges are insufficient.
 
-- Begin with “Give me something mundane you do” and a few recognizable numbered examples when the user has not already supplied a seed.
-- Imagine an unexpectedly powerful transformation before choosing how to realize it.
-- Make the leap something the user can experience, rather than only explaining a clever idea.
-- Deliver pragmatic value in the current environment. Clearly label simulated data and distinguish it from real observations and working integrations.
-- Let the medium follow the leap; images, documents, analyses, simulations, interactive experiences, and other suitable forms remain available.
-- Keep the user oriented around tool use, ground the result, and follow their reaction into the next useful posture.
+The internal check is now:
 
-The other starting postures and the continuous conversational gait are unchanged. No custom icon is included.
+> **Am I showing the user what this would feel like, or am I letting them feel it?**
+
+The medium still follows the leap. Text remains valid when it is the artifact or live interaction itself. When a required capability is unavailable, the assistant must state that limit and deliver the strongest useful experience it can actually support.
 
 ## Install or update
 
 Download [skill.zip](release/skill.zip?raw=1) and upload it through your ChatGPT Skill installation or update flow. Updating this repository does not update an already-installed skill.
 
-Open a new chat, type `start`, and select **Surprise me**.
+## Regression check
 
-## What to test
+Try Surprise Me with “take meeting notes.” If the chosen leap is interrogable meeting memory and interactive capabilities are available, expect a usable object where you can inspect decisions, implied commitments, ambiguities, or supporting evidence and perform the offered interaction yourself. A written sample Q&A alone does not pass. Simulated meeting data must remain clearly labeled.
 
-- Is the seed easy to supply without designing the surprise yourself?
-- Does the result make a useful leap beyond a prettier version of the original task?
-- Can you experience the transformation rather than only read about it?
-- Does it offer value now, with simulated and real behavior clearly distinguished?
-- Does the medium fit the idea rather than repeat the same tool by default?
-- Does the assistant ground the result and naturally follow your reaction?
+Also check that an actual text artifact is still allowed when it fits the leap, and that unavailable tools produce an honest limitation rather than a claim of delivery.
 
-The package has been checked against its source; behavioral testing in the target environment remains the next check. Report feedback in an Issue after removing private, confidential, or proprietary information from transcripts.
+Source and package checks do not establish behavioral success; rerun this test in the target environment after updating the installed skill. No custom icon is included.
