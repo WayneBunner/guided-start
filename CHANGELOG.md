@@ -2,6 +2,14 @@
 
 All notable changes to Guided Start will be documented here.
 
+## v4.2.2 — 2026-09-28
+
+- Make Reach Far internal preparation and require producing the demonstration before explaining the concept.
+- Require a working central interaction when the leap is an interactive system; clearly labeled sample data may support it.
+- Narrow the text/live-interaction exception so a pitch or invented sample exchange cannot count as materialization.
+- Add a pre-landing check for what the user can directly experience now.
+- Update documentation and rebuild the release package.
+
 ## v4.2.1 — 2026-09-28
 
 - Clarify that “visceral” means experienced rather than vividly described. Mock transcripts, hypothetical interactions, and prose walkthroughs cannot substitute for a directly usable experience when it can be materialized.

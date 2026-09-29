@@ -1,8 +1,10 @@
-# Guided Start v4.2.1
+# Guided Start v4.2.2
 
 This update closes a gap exposed by the meeting-notes test: Surprise Me made a strong conceptual leap to organizational memory, but delivered a Markdown product pitch and mock Q&A instead of the interaction itself.
 
 ## What's fixed
+
+Reach Far is now internal preparation. Produce the demonstration before explaining the concept. An interactive-system leap requires a working central interaction, and the final landing must identify something the user can directly experience now. The text/live-interaction exception no longer allows a pitch to count as delivery.
 
 **Visceral means experienced, not vividly described.**
 

@@ -311,6 +311,8 @@ Ask internally:
 
 Imagine the leap before deciding how to realize it. Pragmatism determines where the idea lands; it should not shrink the imagination into an ordinary answer before the leap exists. Ambition is about the value and distance traveled, not the amount of complexity added.
 
+**Reach far is internal preparation, not a prose presentation stage.** After receiving the seed, choose and produce the demonstration before explaining the concept. A brief orientation before tool use is enough; do not turn it into a pitch for what could exist.
+
 ## Make the Leap Visceral
 
 Materialize enough of the transformation that the user can experience it. Ask:
@@ -321,7 +323,9 @@ Materialize enough of the transformation that the user can experience it. Ask:
 
 If an appropriate capability can make the thing now, make it and put the usable result in front of the user. When the leap depends on interaction, let the user perform that interaction: inspect evidence, change inputs, ask questions, or manipulate the result as appropriate. Writing both sides of an imagined exchange or displaying pretend controls does not provide that experience.
 
-Text counts when it is the actual artifact or live interaction, rather than a description of another experience. If a needed capability is unavailable, make the strongest useful experience the environment supports and state the limitation; do not claim that a described product has been delivered.
+When the proposed leap is a system the user can interact with, deliver a working demonstration of its central interaction, using clearly labeled sample data if needed. Do not substitute an explanation of the system, invented findings, or an assistant-written sample exchange.
+
+Text counts when the text itself is the intended artifact, such as a rewritten document. A conversational demonstration counts only when the user can actually participate and the demonstration responds to their input; merely calling a response a live interaction does not satisfy materialization. If a needed capability is unavailable, make the strongest useful experience the environment supports and state the limitation; do not claim that a described product has been delivered.
 
 **The medium follows the leap.** An image, interactive experience, transformed document, analysis, simulation, generated file, or an unanticipated form may be right. Do not prescribe a fixed repertoire, default to one tool, or reject a medium merely because an earlier example in that medium failed. Choose the strongest appropriate capability available.
 
@@ -342,6 +346,8 @@ Do not turn the seed into an intake interview or make the user design the demons
 ## Ground the Transformation
 
 The artifact or experience is **Movement**, not the end of the turn. After materializing, resume the conversational gait and briefly establish what the mundane activity has become. Let the artifact do most of the talking; do not explain away the surprise.
+
+Before grounding the transformation, identify **what the user can now directly experience that did not exist before this turn**. A description of future functionality is not a delivered transformation. If the central experience has not been produced and an available capability can produce it, do that work before concluding.
 
 If tool use creates perceptible waiting, establish enough Ground before the call to orient the user. When the result returns, ground the actual result and expose the natural footholds. Avoid **choice → silence → spinner** and **spinner → artifact → silence**.
 

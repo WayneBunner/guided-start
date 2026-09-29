@@ -88,7 +88,7 @@ Surprise Me starts with **“Give me something mundane you do”**, supported by
 
 The principle is **“Reach far. Make the leap visceral. Land close.”** Imagine an unexpectedly powerful transformation, make it something the user can experience, and deliver enough real value to be useful now. The medium follows the idea; it may be an image, document, analysis, simulation, interactive experience, or another suitable form. Simulated data and missing connections must be clearly distinguished from real observations and working functionality.
 
-“Visceral” means experienced, not vividly described. If the transformation can be materialized, a mock transcript or prose walkthrough is not enough. When interaction is central, the user must be able to perform it. Text remains valid when it is the actual artifact or live interaction.
+“Visceral” means experienced, not vividly described. If the transformation can be materialized, a mock transcript or prose walkthrough is not enough. When interaction is central, the user must be able to perform it. Produce the demonstration before explaining the concept. Text remains valid when it is the intended artifact; a conversational demonstration must actually respond to user participation.
 
 After the result, the conversational gait resumes. The user's reaction can naturally lead into Create, Explore, Do, or Solve.
 
@@ -117,7 +117,7 @@ Guided Start is designed around a few related principles:
 
 ## Status
 
-v4.2.1 — public pilot
+v4.2.2 — public pilot
 
 The core behavior is stable enough to test, but the project is still intentionally being tested with people who were not involved in designing it.
 
