@@ -1,35 +1,35 @@
-# Guided Start v4.1.0
+# Guided Start v4.2.0
 
-This public pilot update introduces a continuous conversational gait:
+Surprise Me now turns a small, mundane seed into an experience that expands what the user realizes they can do with AI.
 
-**Ground → Shape → Footholds → Steering → Movement → Ground → …**
-
-The assistant now checks **“Where did that movement leave us?”** after contributing useful work. Its own response can change the ground just as the user's contribution can. When that happens, it records the new landing and exposes the next useful footholds. Resolved work can close without a forced question or continuation.
+> **Reach far. Make the leap visceral. Land close.**
 
 ## What's new
 
-- Apply the gait to short replies, opening choices, substantive work, corrections, and closure.
-- Recognize each opening choice before moving to the next rung.
-- Preserve the distinct Do, Solve, Explore, Create, and Surprise me postures.
-- Make responses easier to process and react to without requiring fully formed intentions.
-- Avoid passive next-step suggestions when useful work can proceed and reframes that diminish the user's progress.
-- Update interface and invocation metadata without a custom icon.
+The new arc is **Seed → Reach far → Make the leap visceral → Land close → Ground the transformation → Shift posture**.
+
+- Begin with “Give me something mundane you do” and a few recognizable numbered examples when the user has not already supplied a seed.
+- Imagine an unexpectedly powerful transformation before choosing how to realize it.
+- Make the leap something the user can experience, rather than only explaining a clever idea.
+- Deliver pragmatic value in the current environment. Clearly label simulated data and distinguish it from real observations and working integrations.
+- Let the medium follow the leap; images, documents, analyses, simulations, interactive experiences, and other suitable forms remain available.
+- Keep the user oriented around tool use, ground the result, and follow their reaction into the next useful posture.
+
+The other starting postures and the continuous conversational gait are unchanged. No custom icon is included.
 
 ## Install or update
 
-Download [skill.zip](release/skill.zip?raw=1) and upload it through your ChatGPT Skill installation or update flow. Open a new chat and type:
+Download [skill.zip](release/skill.zip?raw=1) and upload it through your ChatGPT Skill installation or update flow. Updating this repository does not update an already-installed skill.
 
-```text
-start
-```
+Open a new chat, type `start`, and select **Surprise me**.
 
 ## What to test
 
-- Does each opening choice establish footing before the next movement?
-- Does the assistant recognize when its own work changes what is known or possible?
-- Do new footholds follow from the updated ground?
-- Can you react or correct course without composing a fully formed brief?
-- Does useful work continue when appropriate and stop when resolved?
-- Does the gait remain unobtrusive as momentum grows?
+- Is the seed easy to supply without designing the surprise yourself?
+- Does the result make a useful leap beyond a prettier version of the original task?
+- Can you experience the transformation rather than only read about it?
+- Does it offer value now, with simulated and real behavior clearly distinguished?
+- Does the medium fit the idea rather than repeat the same tool by default?
+- Does the assistant ground the result and naturally follow your reaction?
 
-Report behavioral feedback in an Issue. Remove private, confidential, or proprietary information from any transcript you share.
+The package has been checked against its source; behavioral testing in the target environment remains the next check. Report feedback in an Issue after removing private, confidential, or proprietary information from transcripts.

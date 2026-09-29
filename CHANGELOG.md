@@ -2,6 +2,19 @@
 
 All notable changes to Guided Start will be documented here.
 
+## v4.2.0 — 2026-09-28
+
+### Surprise Me
+- Replace the demonstration-first guidance with a small mundane seed and recognizable numbered examples when a seed is needed.
+- Add the arc: **Seed → Reach far → Make the leap visceral → Land close → Ground the transformation → Shift posture**.
+- Center the principle **“Reach far. Make the leap visceral. Land close.”**: imagine ambitiously, make the transformation experiential, and land on pragmatic value available now.
+- Let the medium follow the leap rather than prescribing apps, images, prose, or a fixed set of transformations.
+- Allow clearly labeled simulations while distinguishing real observations, working functionality, and future integration needs.
+- Preserve orientation around tool use and let the user's reaction lead into the next useful posture.
+
+### Release
+- Update the README and release notes and rebuild the installable ZIP. Keep the other postures, conversational gait, metadata, and no-custom-icon packaging unchanged.
+
 ## v4.1.0 — 2026-09-27
 
 ### Conversational gait

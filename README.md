@@ -80,6 +80,16 @@ The assistant's own work can change what is known, decided, created, or possible
 
 The gait applies to short replies and opening choices as well as substantive work. It supports the five starting postures without requiring visible framework headings or a question at the end of every response.
 
+## Surprise Me: reach far, land close
+
+Surprise Me starts with **“Give me something mundane you do”**, supported by a few recognizable numbered examples. The user supplies a small seed; the assistant carries the creative leap.
+
+**Seed → Reach far → Make the leap visceral → Land close → Ground the transformation → Shift posture**
+
+The principle is **“Reach far. Make the leap visceral. Land close.”** Imagine an unexpectedly powerful transformation, make it something the user can experience, and deliver enough real value to be useful now. The medium follows the idea; it may be an image, document, analysis, simulation, interactive experience, or another suitable form. Simulated data and missing connections must be clearly distinguished from real observations and working functionality.
+
+After the result, the conversational gait resumes. The user's reaction can naturally lead into Create, Explore, Do, or Solve.
+
 ## Why this exists
 
 A common AI adoption problem is simple:
@@ -105,7 +115,7 @@ Guided Start is designed around a few related principles:
 
 ## Status
 
-v4.1.0 — public pilot
+v4.2.0 — public pilot
 
 The core behavior is stable enough to test, but the project is still intentionally being tested with people who were not involved in designing it.
 
